@@ -1,0 +1,88 @@
+h1{
+	color: black;
+	font-size: 50px;
+	font-family: 'Archivo Black', serif;
+	text-justify: center;
+}
+h2{
+	color: black;
+	font-size: 40px;
+	font-family: 'Archivo Black', serif;
+	text-justify: center;
+}
+h3{
+	color: grey;
+	font-weight: lighter;
+	font-family: 'Roboto Slab';
+	font-size: 24px;
+}
+p {
+	font-family: "Helvetica Neue", cursive;
+	color: black;
+	font-size: 24px;
+	text-justify: center;
+}
+img {
+	width: 300px;
+	height: 300px;
+	border-radius: 50px
+}
+body {
+	background: url(Images/Background.jpg);
+	text-align: center;
+	background-attachment: fixed;
+	background-position: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+div	{
+	background: white;
+	box-shadow: 25;
+	margin: 100px 160px;
+	padding: 25px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,1);
+	border-radius: 20px;
+	}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+a {
+	font-size: 150px;
+	margin-bottom:70px;
+	margin-left:70px;
+	margin-right:70px;
+	margin-top:70px;
+	text-align:center;
+	color: grey;
+}
+ul {
+	list-style-position: inherit;
+	list-style-type: circle; 
+	text-align: justify;
+	width: 100px;
+}
